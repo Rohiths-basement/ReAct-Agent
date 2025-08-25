@@ -1,0 +1,27 @@
+{
+  "name": "react-agent-ts",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts"
+  },
+  "dependencies": {
+    "chalk": "^5.6.0",
+    "commander": "^12.1.0",
+    "dotenv": "^16.6.1",
+    "html-to-text": "^9.0.5",
+    "nanoid": "^5.1.5",
+    "openai": "^4.104.0",
+    "papaparse": "^5.5.3",
+    "zod": "^3.25.76"
+  },
+  "devDependencies": {
+    "@types/html-to-text": "^9.0.4",
+    "@types/node": "^22.17.2",
+    "@types/papaparse": "^5.3.16",
+    "tsx": "^4.20.5",
+    "typescript": "^5.9.2"
+  }
+}

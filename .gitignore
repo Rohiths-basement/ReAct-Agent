@@ -1,0 +1,17 @@
+# Node
+node_modules/
+
+# Env & secrets
+.env
+.env.*
+!.env.example
+
+# Local data & run artifacts
+data/
+!data/runs/.gitkeep
+
+# Builds
+/dist/
+
+# OS
+.DS_Store
