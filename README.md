@@ -90,7 +90,7 @@ npm install
 
 # Configure environment
 cp .env.example .env
-# Edit .env with your OpenAI API key (optional)
+# Add your OpenAI API Key and your Tavily API key in the .env file to ensure maximum value.
 ```
 
 ### Basic Usage
